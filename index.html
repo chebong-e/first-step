@@ -1,0 +1,817 @@
+<html><head><script type="text/javascript" src="/js/jquery.min.1.10.2.js"></script>
+<script>
+$(document).ready(function() {
+	if('11' == '13') {
+		window.resizeTo(980,1000);
+	}else {
+		window.resizeTo(750,1000);
+	}
+
+	setInit();
+});
+
+function goLocalCarPirce() {
+	var frm = document.frm;
+
+	frm.action = '/ps/pass/psPopupLocalCarPirce';
+	frm.method = "post";
+	frm.target = '';
+	frm.submit();
+
+}
+</script>
+<style>
+h3{
+font-family:"NamunGothic;
+font-size: 20px;
+background: url(/portal/_images/sub/h3_blit_bar.jpg) no-repeat left center;
+padding: 10px 0 10px 20px;
+color: #232323;
+margin-bottom: 10px;
+}
+.table_02_2_1{ width:100%;}
+.table_02_2_1 thead th{font-family:"돋움",dotum,Helvetica,sans-serif; text-align:center; font-size:12px; padding:10px 0; border-bottom:1px solid #d5d5d5; border-top:2px solid #555; background:#fafafa;}
+.table_02_2_1 thead th{font-family:"돋움",dotum,Helvetica,sans-serif; border-right:1px solid #e5e5e5;}
+.table_02_2_1 thead th:last-child{border-right:none;}
+.table_02_2_1 tbody th{font-family:"돋움",dotum,Helvetica,sans-serif; text-align:center; font-size:12px; padding:10px 0; border-bottom:1px solid #e5e5e5; border-right:1px solid #e5e5e5;background:#fafafa;}
+.table_02_2_1 tbody td{font-family:"돋움",dotum,Helvetica,sans-serif; text-align:center; font-size:12px;height:20px; border-bottom:1px solid #e5e5e5; border-right:1px solid #e5e5e5; padding:5px 5px;  color:#666;}
+.table_02_2_1 tbody td:last-child{ border-right:none;}
+.table_02_2_1 tbody th:first-child{border-right:1px solid #e5e5e5;}
+.t_right{text-align:right !important}
+.mb15 {margin-bottom:15px !important}
+
+div.btn { text-align: right; margin-top: 10px !important; margin-bottom: 10px !important; width:98%; margin: 0px 12px;}
+
+a.btn01 {font-weight:bold; color:#fff; background-color:#4999da; padding: 6px 12px; margin:0 3px; border:1px solid #4999da; overflow:hidden; border-radius:3px; font-size: 12px;  text-decoration:none;}
+a.btn01:hover, a.btn01:focus {color:#fff; background-color:#2677bc; border:1px solid #226aa6; }
+</style>
+
+
+
+</head><body style=""><form name="frm" method="post">
+	<input type="hidden" name="year1" value="2021">
+	<input type="hidden" name="car_type" value="11">
+
+	<!--컨텐츠 영역-->
+	<h3>2021년도 전기자동차 서울특별시  모델별 보조금</h3>
+		<div class="t_right mb15">
+
+		</div>
+		<table class="table_02_2_1">
+			<colgroup>
+				<col width="95px">
+				<col width="120px">
+				<col width="150px">
+				<col width="130px">
+				<col width="130px">
+				<col width="130px">
+
+			</colgroup>
+			<thead>
+				<tr>
+					<th>차종</th>
+					<th>제조사</th>
+					<th>모델명</th>
+					<th>국비<br>(만원)</th>
+					<th>지방비<br>(만원)</th>
+					<th>보조금<br>(만원)</th>
+
+				</tr>
+			</thead>
+			<tbody>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>코나(기본형, PTC, 모던)</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>코나(기본형, PTC, 프리미엄)</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>코나(기본형, HP, 모던)</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>코나(기본형, HP, 프리미엄)</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>코나(경제형, PTC, 모던)</th>
+						<td>690</td>
+						<td>172</td>
+						<td>862</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>코나(경제형, PTC, 프리미엄)</th>
+						<td>690</td>
+						<td>172</td>
+						<td>862</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>코나(경제형, HP, 모던)</th>
+						<td>690</td>
+						<td>172</td>
+						<td>862</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>코나(경제형, HP, 프리미엄)</th>
+						<td>690</td>
+						<td>172</td>
+						<td>862</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>아이오닉(HP)</th>
+						<td>733</td>
+						<td>183</td>
+						<td>916</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>아이오닉(PTC)</th>
+						<td>701</td>
+						<td>175</td>
+						<td>876</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>아이오닉5(롱레인지 RWD, 2WD 프레스티지)</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>아이오닉5(롱레인지 RWD, 2WD 익스클루시브)</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>아이오닉5(롱레인지 RWD, 2WD 익스클루시브, 빌트인 캠 미적용)</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>아이오닉5(롱레인지 AWD, 프레스티지)</th>
+						<td>773</td>
+						<td>193</td>
+						<td>966</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>아이오닉5(롱레인지 AWD, 익스클루시브)</th>
+						<td>785</td>
+						<td>196</td>
+						<td>981</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>아이오닉5(스탠다드 2WD)</th>
+						<td>791</td>
+						<td>197</td>
+						<td>988</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>아이오닉5(스탠다드 AWD)</th>
+						<td>774</td>
+						<td>193</td>
+						<td>967</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>G80</th>
+						<td>379</td>
+						<td>94</td>
+						<td>473</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>GV60 스탠다드 2WD 19인치</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>GV60 스탠다드 AWD 19인치</th>
+						<td>387</td>
+						<td>96</td>
+						<td>483</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>GV60 스탠다드 AWD 20인치</th>
+						<td>378</td>
+						<td>94</td>
+						<td>472</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>현대</th>
+						<th>GV60 퍼포먼스 AWD 21인치</th>
+						<td>364</td>
+						<td>91</td>
+						<td>455</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>니로EV(HP, 프레스티지)</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>니로EV(HP, 노블레스)</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>니로EV(PTC, 프레스티지)</th>
+						<td>780</td>
+						<td>195</td>
+						<td>975</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>니로EV(PTC, 노블레스)</th>
+						<td>780</td>
+						<td>195</td>
+						<td>975</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>니로EV(경제형, 프레스티지)</th>
+						<td>717</td>
+						<td>179</td>
+						<td>896</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>니로EV(경제형, 노블레스)</th>
+						<td>717</td>
+						<td>179</td>
+						<td>896</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>쏘울(기본형, 프레스티지)</th>
+						<td>750</td>
+						<td>187</td>
+						<td>937</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>쏘울(기본형, 노블레스)</th>
+						<td>750</td>
+						<td>187</td>
+						<td>937</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>쏘울(도심형, 프레스티지)</th>
+						<td>688</td>
+						<td>172</td>
+						<td>860</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>쏘울(도심형, 노블레스)</th>
+						<td>688</td>
+						<td>172</td>
+						<td>860</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>EV6 스탠다드 2WD 19인치</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>EV6 롱레인지 2WD 20인치</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>EV6 롱레인지 4WD 20인치</th>
+						<td>783</td>
+						<td>195</td>
+						<td>978</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>EV6 롱레인지 2WD 19인치</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>EV6 롱레인지 4WD 19인치</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>기아</th>
+						<th>EV6 스탠다드 4WD 19인치</th>
+						<td>800</td>
+						<td>200</td>
+						<td>1,000</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>르노삼성</th>
+						<th>ZOE ZEN</th>
+						<td>702</td>
+						<td>175</td>
+						<td>877</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>르노삼성</th>
+						<th>ZOE INTENS ECO</th>
+						<td>702</td>
+						<td>175</td>
+						<td>877</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>르노삼성</th>
+						<th>ZOE ITENS</th>
+						<td>702</td>
+						<td>175</td>
+						<td>877</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>BMW</th>
+						<th>i3 120Ah Lux</th>
+						<td>673</td>
+						<td>168</td>
+						<td>841</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>BMW</th>
+						<th>i3 120Ah SoL+</th>
+						<td>673</td>
+						<td>168</td>
+						<td>841</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>BMW</th>
+						<th>iX3 M Sport</th>
+						<td>341</td>
+						<td>85</td>
+						<td>426</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>GM</th>
+						<th>BOLT EV LT</th>
+						<td>760</td>
+						<td>190</td>
+						<td>950</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>GM</th>
+						<th>BOLT EV</th>
+						<td>760</td>
+						<td>190</td>
+						<td>950</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>GM</th>
+						<th>볼트 EUV</th>
+						<td>760</td>
+						<td>190</td>
+						<td>950</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>테슬라</th>
+						<th>Model 3(SRP RWD)</th>
+						<td>684</td>
+						<td>171</td>
+						<td>855</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>테슬라</th>
+						<th>Model 3(Long Range)</th>
+						<td>682</td>
+						<td>170</td>
+						<td>852</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>테슬라</th>
+						<th>Model 3(Performance)</th>
+						<td>329</td>
+						<td>82</td>
+						<td>411</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>테슬라</th>
+						<th>Model 3(Long Range HPC)</th>
+						<td>750</td>
+						<td>187</td>
+						<td>937</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>테슬라</th>
+						<th>Model 3(Performance HPL)</th>
+						<td>375</td>
+						<td>93</td>
+						<td>468</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>테슬라</th>
+						<th>Model 3(SRP RWD HPL)</th>
+						<td>730</td>
+						<td>182</td>
+						<td>912</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>테슬라</th>
+						<th>Model Y(Long Range)</th>
+						<td>375</td>
+						<td>93</td>
+						<td>468</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>테슬라</th>
+						<th>Model Y(Performance)</th>
+						<td>372</td>
+						<td>93</td>
+						<td>465</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>테슬라</th>
+						<th>Model 3(Long Range HPL)</th>
+						<td>750</td>
+						<td>187</td>
+						<td>937</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>테슬라</th>
+						<th>Model Y(Standard Range)</th>
+						<td>742</td>
+						<td>185</td>
+						<td>927</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>벤츠</th>
+						<th>EQA250</th>
+						<td>618</td>
+						<td>154</td>
+						<td>772</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>벤츠</th>
+						<th>EQA250(MY22)</th>
+						<td>677</td>
+						<td>169</td>
+						<td>846</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>한불모터스</th>
+						<th>Peugeot e-208 Allure</th>
+						<td>649</td>
+						<td>162</td>
+						<td>811</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>한불모터스</th>
+						<th>Peugeot e-208 GT Line</th>
+						<td>649</td>
+						<td>162</td>
+						<td>811</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>한불모터스</th>
+						<th>DS3 E-tense So Chic</th>
+						<td>605</td>
+						<td>151</td>
+						<td>756</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>한불모터스</th>
+						<th>DS3 E-tense Grand Chic</th>
+						<td>605</td>
+						<td>151</td>
+						<td>756</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>한불모터스</th>
+						<th>Peugeot e-2008 SUV Allure</th>
+						<td>605</td>
+						<td>151</td>
+						<td>756</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>한불모터스</th>
+						<th>Peugeot e-2008 SUV GT Line</th>
+						<td>605</td>
+						<td>151</td>
+						<td>756</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>에디슨이브이</th>
+						<th>SMART EV Z</th>
+						<td>639</td>
+						<td>159</td>
+						<td>798</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>쌍용자동차</th>
+						<th>코란도 e-motion 2WD Heat Pump</th>
+						<td>768</td>
+						<td>192</td>
+						<td>960</td>
+
+					</tr>
+
+					<tr>
+						<th>일반승용</th>
+						<th>쌍용자동차</th>
+						<th>코란도 e-motion 2WD</th>
+						<td>760</td>
+						<td>190</td>
+						<td>950</td>
+
+					</tr>
+
+					<tr>
+						<th>초소형</th>
+						<th>르노삼성</th>
+						<th>TWIZY(K1J05)</th>
+						<td>400</td>
+						<td>140</td>
+						<td>540</td>
+
+					</tr>
+
+					<tr>
+						<th>초소형</th>
+						<th>대창모터스</th>
+						<th>Danigo</th>
+						<td>400</td>
+						<td>140</td>
+						<td>540</td>
+
+					</tr>
+
+					<tr>
+						<th>초소형</th>
+						<th>케이에스티일렉트릭</th>
+						<th>마이브 M1</th>
+						<td>400</td>
+						<td>140</td>
+						<td>540</td>
+
+					</tr>
+
+					<tr>
+						<th>초소형</th>
+						<th>쎄보모빌리티</th>
+						<th>CEVO-C</th>
+						<td>400</td>
+						<td>140</td>
+						<td>540</td>
+
+					</tr>
+
+					<tr>
+						<th>초소형</th>
+						<th>쎄보모빌리티</th>
+						<th>CEVO-C SE</th>
+						<td>400</td>
+						<td>140</td>
+						<td>540</td>
+
+					</tr>
+
+
+			</tbody>
+		</table>
+	<!--//컨텐츠 영역-->
+</form></body></html>
