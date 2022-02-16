@@ -1,0 +1,346 @@
+<html><head><script type="text/javascript" src="/js/jquery.min.1.10.2.js"></script>
+<script>
+$(document).ready(function() {
+	if('12' == '13') {
+		window.resizeTo(980,1000);
+	}else {
+		window.resizeTo(750,1000);
+	}
+
+	setInit();
+});
+
+function goLocalCarPirce() {
+	var frm = document.frm;
+
+	frm.action = '/ps/pass/psPopupLocalCarPirce';
+	frm.method = "post";
+	frm.target = '';
+	frm.submit();
+
+}
+</script>
+<style>
+h3{
+font-family:"NamunGothic;
+font-size: 20px;
+background: url(/portal/_images/sub/h3_blit_bar.jpg) no-repeat left center;
+padding: 10px 0 10px 20px;
+color: #232323;
+margin-bottom: 10px;
+}
+.table_02_2_1{ width:100%;}
+.table_02_2_1 thead th{font-family:"돋움",dotum,Helvetica,sans-serif; text-align:center; font-size:12px; padding:10px 0; border-bottom:1px solid #d5d5d5; border-top:2px solid #555; background:#fafafa;}
+.table_02_2_1 thead th{font-family:"돋움",dotum,Helvetica,sans-serif; border-right:1px solid #e5e5e5;}
+.table_02_2_1 thead th:last-child{border-right:none;}
+.table_02_2_1 tbody th{font-family:"돋움",dotum,Helvetica,sans-serif; text-align:center; font-size:12px; padding:10px 0; border-bottom:1px solid #e5e5e5; border-right:1px solid #e5e5e5;background:#fafafa;}
+.table_02_2_1 tbody td{font-family:"돋움",dotum,Helvetica,sans-serif; text-align:center; font-size:12px;height:20px; border-bottom:1px solid #e5e5e5; border-right:1px solid #e5e5e5; padding:5px 5px;  color:#666;}
+.table_02_2_1 tbody td:last-child{ border-right:none;}
+.table_02_2_1 tbody th:first-child{border-right:1px solid #e5e5e5;}
+.t_right{text-align:right !important}
+.mb15 {margin-bottom:15px !important}
+
+div.btn { text-align: right; margin-top: 10px !important; margin-bottom: 10px !important; width:98%; margin: 0px 12px;}
+
+a.btn01 {font-weight:bold; color:#fff; background-color:#4999da; padding: 6px 12px; margin:0 3px; border:1px solid #4999da; overflow:hidden; border-radius:3px; font-size: 12px;  text-decoration:none;}
+a.btn01:hover, a.btn01:focus {color:#fff; background-color:#2677bc; border:1px solid #226aa6; }
+</style>
+
+
+
+</head><body style=""><form name="frm" method="post">
+	<input type="hidden" name="year1" value="2022">
+	<input type="hidden" name="car_type" value="12">
+
+	<!--컨텐츠 영역-->
+	<h3>2022년도 전기자동차 서울특별시  모델별 보조금</h3>
+		<div class="t_right mb15">
+		</div>
+		<table class="table_02_2_1">
+			<colgroup>
+				<col width="95px">
+				<col width="120px">
+				<col width="150px">
+				<col width="130px">
+				<col width="130px">
+				<col width="130px">
+
+			</colgroup>
+			<thead>
+				<tr>
+					<th>차종</th>
+					<th>제조사</th>
+					<th>모델명</th>
+					<th>국비<br>(만원)</th>
+					<th>지방비<br>(만원)</th>
+					<th>보조금<br>(만원)</th>
+
+				</tr>
+			</thead>
+			<tbody>
+
+					<tr>
+						<th>화물(초소형)</th>
+						<th>에디슨이브이</th>
+						<th>D2C</th>
+						<td>600</td>
+						<td>300</td>
+						<td>900</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(초소형)</th>
+						<th>에디슨이브이</th>
+						<th>D2P</th>
+						<td>600</td>
+						<td>300</td>
+						<td>900</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(초소형)</th>
+						<th>대창모터스</th>
+						<th>다니고3</th>
+						<td>600</td>
+						<td>300</td>
+						<td>900</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(초소형)</th>
+						<th>대창모터스</th>
+						<th>다니고3픽업</th>
+						<td>600</td>
+						<td>300</td>
+						<td>900</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(초소형)</th>
+						<th>마스타전기차</th>
+						<th>마스타VAN</th>
+						<td>600</td>
+						<td>300</td>
+						<td>900</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(초소형)</th>
+						<th>마스타전기차</th>
+						<th>마스타 HIM</th>
+						<td>600</td>
+						<td>300</td>
+						<td>900</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(초소형)</th>
+						<th>디피코</th>
+						<th>포트로</th>
+						<td>600</td>
+						<td>300</td>
+						<td>900</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(초소형)</th>
+						<th>디피코</th>
+						<th>포트로-탑</th>
+						<td>600</td>
+						<td>300</td>
+						<td>900</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(초소형)</th>
+						<th>디피코</th>
+						<th>포트로-픽업</th>
+						<td>600</td>
+						<td>300</td>
+						<td>900</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(초소형)</th>
+						<th>디피코</th>
+						<th>포트로-탑S</th>
+						<td>600</td>
+						<td>300</td>
+						<td>900</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(초소형)</th>
+						<th>디피코</th>
+						<th>포트로-픽업S</th>
+						<td>600</td>
+						<td>300</td>
+						<td>900</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(경형)</th>
+						<th>파워프라자</th>
+						<th>라보Peace</th>
+						<td>1,000</td>
+						<td>500</td>
+						<td>1,500</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>제인모터스</th>
+						<th>칼마토EV</th>
+						<td>1,055</td>
+						<td>452</td>
+						<td>1,507</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>파워프라자</th>
+						<th>봉고3ev PEACE</th>
+						<td>1,034</td>
+						<td>443</td>
+						<td>1,477</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>파워프라자</th>
+						<th>봉고3ev PEACE 더블캡</th>
+						<td>980</td>
+						<td>420</td>
+						<td>1,400</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>현대</th>
+						<th>포터Ⅱ 일렉트릭</th>
+						<td>1,400</td>
+						<td>600</td>
+						<td>2,000</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>기아</th>
+						<th>봉고Ⅲ 전기차</th>
+						<td>1,400</td>
+						<td>600</td>
+						<td>2,000</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>일진정공</th>
+						<th>일진무시동전기냉동탑차(149.9km)</th>
+						<td>1,543</td>
+						<td>661</td>
+						<td>2,204</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>일진정공</th>
+						<th>일진무시동전기냉동탑차(186.1km)</th>
+						<td>1,783</td>
+						<td>764</td>
+						<td>2,547</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>코리아에어카고에이전시</th>
+						<th>LSEV</th>
+						<td>1,077</td>
+						<td>461</td>
+						<td>1,538</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>대창모터스</th>
+						<th>다니고밴</th>
+						<td>1,202</td>
+						<td>515</td>
+						<td>1,717</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>에디슨모터스</th>
+						<th>SMART T1.0</th>
+						<td>1,132</td>
+						<td>485</td>
+						<td>1,617</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>한신자동차</th>
+						<th>플러스</th>
+						<td>1,257</td>
+						<td>538</td>
+						<td>1,795</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>한신자동차</th>
+						<th>플러스2.0카고</th>
+						<td>1,226</td>
+						<td>525</td>
+						<td>1,751</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>제이제이모터스</th>
+						<th>비바</th>
+						<td>1,282</td>
+						<td>549</td>
+						<td>1,831</td>
+
+					</tr>
+
+					<tr>
+						<th>화물(소형)</th>
+						<th>제이제이모터스</th>
+						<th>젤라</th>
+						<td>1,400</td>
+						<td>600</td>
+						<td>2,000</td>
+
+					</tr>
+
+
+			</tbody>
+		</table>
+	<!--//컨텐츠 영역-->
+</form></body></html>
